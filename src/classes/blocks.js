@@ -1,4 +1,4 @@
-import {col, row} from './utils'
+import {col, row} from '../utils'
 
 class Block {
     constructor(value, options){
@@ -17,7 +17,7 @@ export class TitleBlock extends Block {
     }
 
     toHTML(){
-        const {styles,tag} = this.options
+        const {styles,tag = 'h1'} = this.options
         return row(col(`<${tag}>${this.value}</${tag}>`), styles)
     }
 }

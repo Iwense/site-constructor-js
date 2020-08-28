@@ -1,5 +1,5 @@
 import {css} from './utils'
-import {TitleBlock, TextBlock, TextColumnsBlock, ImageBlock} from './blocks'
+import {TitleBlock, TextBlock, TextColumnsBlock, ImageBlock} from './classes/blocks'
 
 
 
@@ -27,3 +27,5 @@ export const model = [
         })
     }),
 ]
+
+
