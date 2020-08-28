@@ -1,0 +1,24 @@
+#app{
+    position: relative;
+    width: 100%;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    padding:10px;
+    width: 20%;
+    box-shadow: 1px 0 0 rgb(54, 54, 54);
+    z-index: 100;
+    overflow-y: auto;
+}
+
+.content{
+    position: absolute;
+    width: 80%;
+    top:0;
+    left: 20%;
+    padding:5px;
+}
