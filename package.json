@@ -1,0 +1,30 @@
+{
+  "name": "site-constructor",
+  "version": "1.0.0",
+  "description": "js only site constructor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --node production",
+    "serve": "webpack-dev-server --node development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iwense/site-constructor-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Grishin Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iwense/site-constructor-js/issues"
+  },
+  "homepage": "https://github.com/Iwense/site-constructor-js#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
