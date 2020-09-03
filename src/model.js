@@ -1,5 +1,5 @@
 import {css} from './utils'
-import {TitleBlock, TextBlock, TextColumnsBlock, ImageBlock} from './classes/blocks'
+import {TitleBlock, TextBlock, TextColumnsBlock, ImageBlock, ContentBlock} from './classes/blocks'
 
 
 
@@ -23,9 +23,10 @@ export const model = [
         'Я полностью заново сделал весь этот проект'
     ], {
         styles: css({
-            color:'#ffe',
+            color:'#000',
         })
     }),
+     
 ]
 
 

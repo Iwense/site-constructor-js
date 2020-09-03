@@ -3,6 +3,7 @@ import {model} from './model'
 import {Site} from './classes/site'
 import {Sidebar} from './classes/sidebar'
 
+
 const site = new Site('#site')
 
 const updateCallback = newBlock => {
